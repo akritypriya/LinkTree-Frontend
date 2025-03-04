@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .logoMarket {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+  }
+  
+  .formhead {
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    font-size:47px;
+    font-weight:bolder;
+    color: black;
+    font-family: Poppins;
+    letter-spacing: 0%;
+  }
+  
+  .headtext{
+    font-family: Poppins;
+    color: #676B5F;
+    text-align: left;
+    margin-right: 40%;
+    margin-bottom: 26%;
+  }
+  .sideimg {
+    position: fixed;
+    margin-left: 80%;
+    width: 50%;
+    height: 100vh;
+    }
+    .main{
+        position: absolute;
+        left: 20%;
+        top:250px;
+    }
+  .inputText{
+    background: #F6F7F5;
+    width: 30vw;
+    height: 5vh;
+   border-radius: 10px;
+   color: black;
+   border: none;
+   padding-left: 20px;
+   margin-bottom: 10%;
+
+}
+.selectbtntext{
+    font-family: Inter;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0%;
+margin-bottom: 3%;
+
+}
+.formButton1 {
+    width: 100%;
+    padding: 12px;
+    background: #28A263;
+     color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    margin-top: 10%;
+  }
+  .selectBtn {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .selectBtn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .selectBtn:focus,
+  .selectBtn.selected {
+    background-color: #0FAA65; 
+    color: white;
+    border-color: #0FAA65;
+  }
+  
+  .selectBtn img {
+    width: 16px;
+    height: 16px;
+  }
