@@ -1,4 +1,4 @@
-const URL ='http://localhost:8000/api';
+const URL ='https://linktree-backend-dbgi.onrender.com/api';
 
 // Register
 export const register = (data) => {
