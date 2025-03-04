@@ -11,7 +11,7 @@ import img10 from "../../assets/img10.jpg";
 import img11 from "../../assets/img11.png";
 import logoMarket from "../../assets/logoMarket.png";
 import signup from  "../../assets/signup.png";
-import styles from "./Homepage.module.css";
+import styles from "./HomePage.module.css";
 import {Link} from 'react-router-dom';
 
 function Homepage() {
